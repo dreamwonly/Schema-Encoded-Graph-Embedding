@@ -1,0 +1,12 @@
+graph  {
+0 [boot_id="408", date="2018:10:05T22:03:45", id="96058", jiffies="4294717841", label="[task] 0", machine_id="1210833259", pid="0", type="task", version="0", vpid="0"];
+1 [boot_id="0", date="2018:10:05T22:03:45", gid="0", id="33170", ino="792987", jiffies="4294717841", label="[file] 0", machine_id="1210833259", mode="0x81a4", secctx="system_u:object_r:lib_t:s0", type="file", uid="0", uuid="c6790c2a-ed04-423d-aea2-6ee3e973461b", version="0"];
+2 [boot_id="408", cancel_wbytes="0", cgroupns="0", date="2018:10:05T22:03:45", gid="0", hw_rss="0", hw_vm="0", id="96057", ipcns="0", jiffies="4294717841", label="[process] 0", machine_id="1210833259", mntns="0", netns="0", pidns="0", rbytes="0", rss="0", secctx="system_u:object_r:unlabeled_t:s0", stime="0", tgid="0", type="process_memory", uid="0", utime="0", utsns="0", version="0", vm="0", wbytes="0"];
+3 [boot_id="408", cancel_wbytes="0", cgroupns="0", date="2018:10:05T22:03:45", gid="0", hw_rss="0", hw_vm="0", id="96059", ipcns="0", jiffies="4294717841", label="[process] 0", machine_id="1210833259", mntns="0", netns="0", pidns="0", rbytes="0", rss="0", secctx="system_u:object_r:unlabeled_t:s0", stime="0", tgid="0", type="process_memory", uid="0", utime="0", utsns="0", version="0", vm="0", wbytes="0"];
+0 -- 2  [activity="A", allowed="true", boot_id="408", date="2018:10:05T22:03:45", entity="C", flags="0", id="3", jiffies="4294717841", key=0, label="clone_mem", machine_id="1210833259", type="clone_mem"];
+1 -- 2  [allowed="true", boot_id="408", date="2018:10:05T22:03:45", flags="0", generatedEntity="C", id="4", jiffies="4294717842", key=0, label="exec", machine_id="1210833259", type="exec", usedEntity="B"];
+1 -- 2  [allowed="true", boot_id="408", date="2018:10:05T22:03:45", flags="0", generatedEntity="C", id="6", jiffies="4294717842", key=1, label="arg", machine_id="1210833259", type="arg", usedEntity="B"];
+2 -- 3  [activity="D", allowed="true", boot_id="408", date="2018:10:05T22:03:45", entity="C", flags="0", id="2", jiffies="4294717841", key=0, label="proc_read", machine_id="1210833259", type="proc_read"];
+2 -- 3  [allowed="true", boot_id="408", date="2018:10:05T22:03:45", flags="d1", generatedEntity="D", id="1", jiffies="4294717841", key=1, label="sh_read", machine_id="1210833259", type="sh_read", usedEntity="C"];
+2 -- 3  [allowed="true", boot_id="408", date="2018:10:05T22:03:45", flags="0", generatedEntity="D", id="5", jiffies="4294717842", key=2, label="arg", machine_id="1210833259", type="arg", usedEntity="C"];
+}

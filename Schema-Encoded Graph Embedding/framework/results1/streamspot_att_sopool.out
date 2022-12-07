@@ -1,0 +1,90 @@
+2022-05-11 10:21:02,004 INFO Namespace(accum_steps=4, activation='elu', agg_type='sum', batch_size=1, bidirected=True, dataset='streamspot', dim_a=16, dropout=0.2, embed_dim=64, epochs=5, final_dropout=0.3, gnn='GATNE', homo=False, inter_dim=32, lr=0.001, model_name='streamspot_att_sopool', num_workers=4, pool='sopool', sopool_type='attend', timestamp=True, total_latent_dim=64, version='None', weight_decay=0.01)
+2022-05-11 10:21:50,197 INFO Namespace(accum_steps=4, activation='elu', agg_type='sum', batch_size=1, bidirected=True, dataset='streamspot', dim_a=16, dropout=0.2, embed_dim=64, epochs=5, final_dropout=0.3, gnn='GATNE', homo=False, inter_dim=32, lr=0.001, model_name='streamspot_att_sopool', num_workers=4, pool='sopool', sopool_type='attend', timestamp=True, total_latent_dim=64, version='None', weight_decay=0.01)
+2022-05-11 10:59:36,551 INFO 00: Acc: 1.0000 | Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000 
+2022-05-11 11:21:50,459 INFO Total training time... 3589.34s
+-------------------------
+Validation metrics:
+Accuracies: [1.0]
+Precisions: [1.0]
+Recalls: [1.0]
+F1s: [1.0]
+-------------------------
+Test metrics: CV-fold: 0
+Accuracy: 1.0000
+Precision: 1.0000
+Recall: 1.0000
+F1: 1.0000
+-------------------------
+-------------------------
+2022-05-11 12:00:19,243 INFO 00: Acc: 1.0000 | Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000 
+2022-05-11 12:17:37,484 INFO Total training time... 2952.12s
+-------------------------
+Validation metrics:
+Accuracies: [1.0]
+Precisions: [1.0]
+Recalls: [1.0]
+F1s: [1.0]
+-------------------------
+Test metrics: CV-fold: 1
+Accuracy: 1.0000
+Precision: 1.0000
+Recall: 1.0000
+F1: 1.0000
+-------------------------
+-------------------------
+2022-05-12 11:01:30,980 INFO Namespace(accum_steps=4, activation='elu', agg_type='sum', batch_size=1, bidirected=True, dataset='streamspot', dim_a=16, dropout=0.2, embed_dim=64, epochs=5, final_dropout=0.3, gnn='GATNE', homo=False, inter_dim=32, lr=0.001, model_name='streamspot_att_sopool', num_workers=4, pool='sopool', sopool_type='attend', timestamp=True, total_latent_dim=64, version='None', weight_decay=0.01)
+2022-05-12 11:02:43,803 INFO Namespace(accum_steps=4, activation='elu', agg_type='sum', batch_size=1, bidirected=True, dataset='streamspot', dim_a=16, dropout=0.2, embed_dim=64, epochs=5, final_dropout=0.3, gnn='GATNE', homo=False, inter_dim=32, lr=0.001, model_name='streamspot_att_sopool', num_workers=4, pool='sopool', sopool_type='attend', timestamp=True, total_latent_dim=64, version='None', weight_decay=0.01)
+2022-05-12 11:27:35,351 INFO 00: Acc: 1.0000 | Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000 
+2022-05-12 11:45:41,325 INFO Total training time... 2567.91s
+-------------------------
+Validation metrics:
+Accuracies: [1.0]
+Precisions: [1.0]
+Recalls: [1.0]
+F1s: [1.0]
+-------------------------
+Test metrics: CV-fold: 2
+Accuracy: 1.0000
+Precision: 1.0000
+Recall: 1.0000
+F1: 1.0000
+-------------------------
+-------------------------
+2022-05-12 12:15:08,343 INFO 00: Acc: 1.0000 | Prec: 1.0000 | Recall: 1.0000 | F1: 1.0000 
+2022-05-12 12:32:04,455 INFO Total training time... 2429.82s
+-------------------------
+Validation metrics:
+Accuracies: [1.0]
+Precisions: [1.0]
+Recalls: [1.0]
+F1s: [1.0]
+-------------------------
+Test metrics: CV-fold: 3
+Accuracy: 1.0000
+Precision: 1.0000
+Recall: 1.0000
+F1: 1.0000
+-------------------------
+-------------------------
+2022-05-12 13:04:53,825 INFO 00: Acc: 0.8545 | Prec: 0.0000 | Recall: 0.0000 | F1: 0.0000 
+2022-05-12 13:24:29,092 INFO Total training time... 2861.25s
+-------------------------
+Validation metrics:
+Accuracies: [0.8545081967213115]
+Precisions: [0.0]
+Recalls: [0.0]
+F1s: [0.0]
+-------------------------
+Test metrics: CV-fold: 4
+Accuracy: 1.0000
+Precision: 1.0000
+Recall: 1.0000
+F1: 1.0000
+-------------------------
+-------------------------
+-------------------------
+Test Metrics: Mean and St Dev
+Accuracy: 1.0000 0.0000
+Precision: 1.0000 0.0000
+Recall: 1.0000 0.0000
+F1: 1.0000 0.0000

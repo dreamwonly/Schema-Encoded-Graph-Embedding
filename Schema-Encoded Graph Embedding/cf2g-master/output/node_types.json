@@ -1,0 +1,12 @@
+{
+  "task": [
+    "A"
+  ],
+  "file": [
+    "B"
+  ],
+  "process_memory": [
+    "C",
+    "D"
+  ]
+}
